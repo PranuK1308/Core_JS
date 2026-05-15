@@ -87,6 +87,7 @@ var dynamicVar = 42;
 console.log(dynamicVar); // Output: 42
 console.log(typeof dynamicVar); // Output: number  
 
+
 // Reassigning a string to the same variable
 dynamicVar = "Now I'm a string!";
 console.log(dynamicVar);    // Output: Now I'm a string!
@@ -98,4 +99,5 @@ var strNum = "20";
 var result = num + strNum;
 console.log(result);    // Output: 1020
 console.log(typeof result); // Output: string  
+
 // 
