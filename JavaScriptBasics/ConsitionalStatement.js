@@ -91,3 +91,27 @@ switch(day) {
     default:
         console.log("Invalid day.");
 }
+
+
+// let ob = "pineapple";
+
+// switch(Ob){
+
+//     case "apple":
+
+//         console.log("It's an apple.");
+//         break;
+//     case "banana":
+//         console.log("It's a banana.");
+//         break;
+
+
+
+
+// }
+
+// if(consition){
+
+// }else if(condition){
+    
+// }
