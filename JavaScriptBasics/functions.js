@@ -116,6 +116,3 @@ var printFruit = (fruit) => {
 printFruit(fruit);
 
 
-
-
-
