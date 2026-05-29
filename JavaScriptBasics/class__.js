@@ -45,7 +45,6 @@ class calculator{
         return a/b;
     }
 
-
     sun(a,b) {
         return a-b;
     }
