@@ -79,4 +79,18 @@
 
 
 
-// aB
+// Abstract Class - Hiding the implementation details and showing only the functionality to the user
+
+class car {
+    start(){
+        this.#engineStart();
+        console.log("Car is Starting")
+    }
+    #engineStart(){
+        console.log("Engine is Starting")
+
+    }
+}
+const Car = new car();
+Car.start();
+// Car.#engineStart(); // Error - Private Method cannot be accessed outside the class   
