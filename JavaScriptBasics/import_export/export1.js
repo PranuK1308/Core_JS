@@ -1,14 +1,11 @@
-class clc {
-    constructor(a,b){
-        this.a = a;
-        this.b = b;
-    }   
+class Calc{
+
     add(){
-        return this.a + this.b;
+        console.log("Addition");
     }
-    sub(){
-        return this.a - this.b;
-    }
+
+
 }
 
-module.exports = clc;
+
+export { Calc };
