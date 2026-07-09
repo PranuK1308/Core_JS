@@ -77,6 +77,7 @@ const acc = new Bankaccount();
 acc.deposit(500);
 
 console.log(acc.getBalance())
+console.log(acc.#balance) // Error - Cannot access private field #balance outside of class Bankaccount
 
 // Inheritance - One class can inherit proprties and methods from other class
 
